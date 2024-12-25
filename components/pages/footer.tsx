@@ -1,5 +1,5 @@
-import { Github, Linkedin, Mail } from 'lucide-react'
 import { LinkedInLogoIcon, EnvelopeClosedIcon, GitHubLogoIcon } from "@radix-ui/react-icons"
+import Image from "next/image"
 import Link from "next/link"
 
 export function Footer() {
@@ -18,8 +18,15 @@ export function Footer() {
               <EnvelopeClosedIcon className="h-6 w-6 text-gray-600 hover:text-gray-900" />
             </Link>
           </div>
-          <p className="mt-4 sm:mt-0 text-sm text-gray-500">
-            © {new Date().getFullYear()} Asif Shariar Likhon. All rights reserved.
+          <p className="flex flex-col md:flex-row items-center justify-center mt-4 sm:mt-0 text-sm text-gray-500">
+            © {new Date().getFullYear()} Asif Shariar Likhon. All rights reserved. 
+            <Image
+              src="/likhon.png"
+              alt="Asif Shariar Likhon"
+              width={50}
+              height={50}
+              className="inline-block ml-2"
+            />
           </p>
         </div>
       </div>

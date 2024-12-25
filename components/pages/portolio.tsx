@@ -178,7 +178,7 @@ export default function Portfolio() {
               <div className="space-y-4">
                 <div>
                   <h3 className="font-semibold text-blue-800">BRAC University</h3>
-                  <p className="text-sm text-gray-600">Bachelor's Degree in Computer Science, Minor in Economics (Ongoing)</p>
+                  <p className="text-sm text-gray-600">{"Bachelor's Degree in Computer Science, Minor in Economics (Ongoing)"}</p>
                   <p className="text-sm text-gray-600">2017 – *</p>
                 </div>
                 <div>
